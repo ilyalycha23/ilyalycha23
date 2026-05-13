@@ -8,19 +8,7 @@
 
 ---
 
-## ⚡ Связаться со мной
-
-<div align="center">
-
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ilyalavl)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ilyalav2323@gmail.com)
-[![VK](https://img.shields.io/badge/VK-0077FF?style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/ilyalavrl)
-
-</div>
-
----
-
-## ⚡ Мой стек
+## 🛠️ Мой стек
 
 <div align="center">
 
@@ -43,7 +31,7 @@
 ---
 
 <details>
-<summary>▶ ⚡ Образование</summary>
+<summary>🎓 Образование</summary>
 
 <br>
 
@@ -54,18 +42,14 @@
 
 </details>
 
-<details>
-<summary>▶ ⚡ GitHub Stats</summary>
+---
 
-<br>
+## 📫 Связаться со мной
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ilyalycha23&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ilyalycha23&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ilyalavl)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ilyalav2323@gmail.com)
+[![VK](https://img.shields.io/badge/VK-0077FF?style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/ilyalavrl)
 
 </div>
-
-<br>
-
-</details>
