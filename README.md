@@ -6,7 +6,7 @@
 
 ---
 
-## Tech stack
+## 🛠️ Tech stack
 
 <div align="left">
 
@@ -26,15 +26,15 @@
 
 ---
 
-## Education
+## 🎓 Education
 
-- **GUAP** — currently studying at the [St. Petersburg State University of Aerospace Instrumentation](https://guap.ru/en/) (ГУАП).
-- **Higher School of Programming** (Krasnodar) — graduated with honors; specialty: Software Engineering, Automated Control Systems & Information Processing.
-- **ANO "School of Programmers"** (Moscow) — certificate of completion; track: Industrial Programming.
+- **GUAP** — currently studying at the [St. Petersburg State University of Aerospace Instrumentation](https://guap.ru/en/).
+- **Higher School of Programming** (Krasnodar) — graduated with honors, specialty: Software Engineering, Automated Control Systems & Information Processing.
+- **ANO "School of Programmers"** (Moscow) — certificate of completion, track: Industrial Programming.
 
 ---
 
-## Get in touch
+## 📫 Get in touch
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ilyalavl)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ilyalav2323@gmail.com)
