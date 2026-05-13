@@ -2,41 +2,39 @@
 
 # Ilya Alexandrovich
 
-### Software Engineer · Python & C#
+👨‍💻 3rd-year IT student  
+🚀 Technology has been my passion since school  
+📈 Deepening my knowledge at university and focusing on self-development
 
 </div>
 
 ---
 
-## 🛠️ Мой стек
+## Tech stack
 
-<div align="center">
+Languages, tools, and databases I use — **Python**, **C#**, **Git**, **WordPress**, **HTML**, **CSS**, plus **JavaScript**, **Kotlin**, and **C++** (self-taught). **MySQL** and **PostgreSQL** in academic projects.
 
-### Основной стек
-
-<img src="https://skillicons.dev/icons?i=python,cs,git,wordpress,html,css&perline=8" alt="Основной стек" />
-
-### Базовый уровень
-
-<img src="https://skillicons.dev/icons?i=cpp,js,kotlin&perline=8" alt="Базовый уровень" />
-
-### Базы данных
-
-<img src="https://skillicons.dev/icons?i=mysql,postgres&perline=8" alt="Базы данных" />
-
-*MySQL, PostgreSQL — учебные проекты*
-
-</div>
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/languages/csharp)
+[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
+[![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)](https://wordpress.org/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
 ---
 
 <details>
-<summary>🎓 Образование</summary>
+<summary>Education</summary>
 
 <br>
 
-- **Высшая школа программирования** (Краснодар) — окончил с отличием, специальность «Программный инженер, АСУ и обработка информации».
-- **АНО ДО «Школа программистов»** (Москва) — свидетельство об окончании, направление «Промышленное программирование».
+- **Higher School of Programming** (Krasnodar) — graduated with honors; specialty: Software Engineering, Automated Control Systems & Information Processing.
+- **ANO "School of Programmers"** (Moscow) — certificate of completion; track: Industrial Programming.
 
 <br>
 
@@ -44,12 +42,8 @@
 
 ---
 
-## 📫 Связаться со мной
-
-<div align="center">
+## Get in touch
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ilyalavl)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ilyalav2323@gmail.com)
 [![VK](https://img.shields.io/badge/VK-0077FF?style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/ilyalavrl)
-
-</div>
