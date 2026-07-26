@@ -1,6 +1,6 @@
 # Ilya Alexandrovich
 
-👨‍💻 3rd-year IT student  
+👨‍💻 4rd-year IT student  
 🚀 Technology has been my passion since school  
 📈 Deepening my knowledge at university and focusing on self-development
 
