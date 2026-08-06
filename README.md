@@ -1,12 +1,9 @@
 # Ilya Alexandrovich
 
-[![RU](https://img.shields.io/badge/README-RU-1f6feb?style=for-the-badge)](#русская-версия)
-[![EN](https://img.shields.io/badge/README-EN-6e7781?style=for-the-badge)](#english-version)
-
 <details open>
 <summary><b>RU</b></summary>
 
-## Русская версия
+## Версия на русском языке
 
 👨‍💻 Студент 4 курса IT-направления  
 🚀 Технологии увлекают меня ещё с школьных лет  
