@@ -31,6 +31,7 @@
 ## 🎓 Education
 
 - **GUAP** — currently studying at the [St. Petersburg State University of Aerospace Instrumentation](https://guap.ru/en/).
+- **LLC "BFT-Holding"** — practice "Systems Engineering in QA" in the [BFT-Holding](https://bft.ru/company/).
 - **Higher School of Programming** (Krasnodar) — graduated with honors, specialty: Software Engineering, Automated Control Systems & Information Processing.
 - **ANO "School of Programmers"** (Moscow) — certificate of completion, track: Industrial Programming.
 
