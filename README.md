@@ -33,23 +33,25 @@
 
 ---
 
-## 💼 Портфолио
-
-- [Веб-разработка](https://github.com/ilyalycha23/My-websites-portfolio)
-- [Игровой сборник — C# / Unity](https://github.com/ilyalycha23/SetOf2DGames)
-- [Игра 2048 — C# / Unity](https://github.com/ilyalycha23/2048)
-- [Трекер для учёта учёбы — JS](https://github.com/ilyalycha23/tracker-ycheba-mobile)
-- [Автоматизация учёта пациентов в больнице — Kotlin](https://github.com/ilyalycha23/MediTrack-Training)
-- [Автоматизация деятельности киноцентра — 1С](https://github.com/ilyalycha23/Cinema-Enterprise-1C)
-
----
-
 ## 🎓 Образование
 
 - **ГУАП** - в настоящее время обучаюсь в [Санкт-Петербургском государственном университете аэрокосмического приборостроения](https://guap.ru/).
 - **ООО "БФТ-Холдинг"** - проходил практику "Системная инженерия в QA" в [БФТ-Холдинг](https://bft.ru/company/).
 - **Высшая школа программирования** (Краснодар) - окончил с отличием, специальность: программная инженерия, автоматизированные системы управления и обработка информации.
 - **АНО "Школа программистов"** (Москва) - сертификат о прохождении программы по направлению: промышленное программирование.
+
+---
+
+## 💼 Портфолио
+
+| Проект | Стек | Ссылка |
+| :--- | :--- | :---: |
+| 🌐 Веб-разработка | WordPress · HTML · CSS · JS | [Открыть](https://github.com/ilyalycha23/My-websites-portfolio) |
+| 🎮 Игровой сборник | C# · Unity | [Открыть](https://github.com/ilyalycha23/SetOf2DGames) |
+| 🔢 Игра 2048 | C# · Unity | [Открыть](https://github.com/ilyalycha23/2048) |
+| 📅 Трекер учёбы | JavaScript | [Открыть](https://github.com/ilyalycha23/tracker-ycheba-mobile) |
+| 🏥 Учёт пациентов | Kotlin | [Открыть](https://github.com/ilyalycha23/MediTrack-Training) |
+| 🎬 Киноцентр | 1С:Предприятие | [Открыть](https://github.com/ilyalycha23/Cinema-Enterprise-1C) |
 
 ---
 
@@ -94,23 +96,25 @@
 
 ---
 
-## 💼 Portfolio
-
-- [Web development](https://github.com/ilyalycha23/My-websites-portfolio)
-- [Game collection — C# / Unity](https://github.com/ilyalycha23/SetOf2DGames)
-- [2048 game — C# / Unity](https://github.com/ilyalycha23/2048)
-- [Study tracker — JS](https://github.com/ilyalycha23/tracker-ycheba-mobile)
-- [Hospital patient tracking — Kotlin](https://github.com/ilyalycha23/MediTrack-Training)
-- [Cinema center automation — 1C](https://github.com/ilyalycha23/Cinema-Enterprise-1C)
-
----
-
 ## 🎓 Education
 
 - **GUAP** - currently studying at the [St. Petersburg State University of Aerospace Instrumentation](https://guap.ru/en/).
 - **LLC "BFT-Holding"** - practice "Systems Engineering in QA" at the [BFT-Holding](https://bft.ru/company/).
 - **Higher School of Programming** (Krasnodar) - graduated with honors, specialty: Software Engineering, Automated Control Systems & Information Processing.
 - **ANO "School of Programmers"** (Moscow) - certificate of completion, track: Industrial Programming.
+
+---
+
+## 💼 Portfolio
+
+| Project | Stack | Link |
+| :--- | :--- | :---: |
+| 🌐 Web development | WordPress · HTML · CSS · JS | [Open](https://github.com/ilyalycha23/My-websites-portfolio) |
+| 🎮 Game collection | C# · Unity | [Open](https://github.com/ilyalycha23/SetOf2DGames) |
+| 🔢 2048 game | C# · Unity | [Open](https://github.com/ilyalycha23/2048) |
+| 📅 Study tracker | JavaScript | [Open](https://github.com/ilyalycha23/tracker-ycheba-mobile) |
+| 🏥 Patient tracking | Kotlin | [Open](https://github.com/ilyalycha23/MediTrack-Training) |
+| 🎬 Cinema center | 1C:Enterprise | [Open](https://github.com/ilyalycha23/Cinema-Enterprise-1C) |
 
 ---
 
