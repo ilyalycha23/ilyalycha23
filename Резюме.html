@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Лаврешин Илья Александрович — Резюме</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --text: #1a1a2e;
+      --muted: #5c5c72;
+      --soft: #8888a0;
+      --accent: #2563eb;
+      --accent-dark: #1d4ed8;
+      --line: #e4e4ec;
+      --bg: #ffffff;
+      --sidebar: #f7f8fb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 10pt;
+    }
+
+    body {
+      font-family: "Inter", system-ui, sans-serif;
+      color: var(--text);
+      background: #dce0e8;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      padding: 20px 12px 28px;
+    }
+
+    /* —— Лист A4 —— */
+    .sheet {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto 20px;
+      background: var(--bg);
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sheet:last-child {
+      margin-bottom: 0;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8mm;
+      padding: 9mm 11mm 7mm;
+      border-bottom: 3px solid var(--accent);
+      flex-shrink: 0;
+    }
+
+    .header--compact {
+      padding: 5mm 11mm 4mm;
+      border-bottom-width: 2px;
+    }
+
+    .header--compact h1 {
+      font-size: 14pt;
+      margin-bottom: 0;
+    }
+
+    .header--compact .contacts {
+      font-size: 9pt;
+    }
+
+    .header-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .header-info h1 {
+      font-size: 21pt;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.12;
+      margin-bottom: 3px;
+    }
+
+    .header-sub {
+      font-size: 9.5pt;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .contacts {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 4px 12px;
+      font-size: 9.5pt;
+    }
+
+    .contacts a {
+      color: var(--accent-dark);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contacts .sep {
+      color: var(--line);
+    }
+
+    .header-photo {
+      flex-shrink: 0;
+      width: 26mm;
+      height: 26mm;
+      border-radius: 7px;
+      overflow: hidden;
+      border: 2px solid var(--line);
+      background: var(--sidebar);
+    }
+
+    .header-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+    }
+
+    .content {
+      display: flex;
+      flex: 1;
+    }
+
+    .col-left {
+      width: 33%;
+      flex-shrink: 0;
+      background: var(--sidebar);
+      padding: 7mm 8mm 8mm;
+      border-right: 1px solid var(--line);
+    }
+
+    .col-right {
+      flex: 1;
+      padding: 7mm 10mm 8mm 9mm;
+      min-width: 0;
+    }
+
+    .block {
+      margin-bottom: 5.5mm;
+    }
+
+    .block:last-child {
+      margin-bottom: 0;
+    }
+
+    .block-title {
+      font-size: 8pt;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 4px;
+      padding-bottom: 3px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .block-text {
+      font-size: 9pt;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .block-text li {
+      list-style: none;
+      margin-bottom: 2px;
+      padding-left: 10px;
+      position: relative;
+    }
+
+    .block-text li::before {
+      content: "·";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3px;
+    }
+
+    .skill {
+      font-size: 8pt;
+      font-weight: 500;
+      padding: 2px 7px;
+      border-radius: 4px;
+      background: #fff;
+      border: 1px solid var(--line);
+      color: var(--text);
+    }
+
+    .skill.soft {
+      background: transparent;
+      border-style: dashed;
+      color: var(--muted);
+    }
+
+    .lang-item {
+      display: flex;
+      justify-content: space-between;
+      font-size: 9pt;
+      margin-bottom: 3px;
+    }
+
+    .lang-item span:first-child {
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .lang-item span:last-child {
+      color: var(--soft);
+      font-size: 8.5pt;
+    }
+
+    .entry {
+      margin-bottom: 3.5mm;
+      padding-left: 6px;
+      border-left: 2px solid var(--line);
+    }
+
+    .entry:last-child {
+      margin-bottom: 0;
+    }
+
+    .entry-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px;
+      margin-bottom: 2px;
+    }
+
+    .entry-head h3 {
+      font-size: 10pt;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
+    .entry-period {
+      font-size: 8.5pt;
+      font-weight: 600;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .entry-sub {
+      font-size: 9pt;
+      color: var(--muted);
+      font-weight: 500;
+      margin-bottom: 2px;
+      line-height: 1.45;
+    }
+
+    .entry-detail {
+      font-size: 8.5pt;
+      color: var(--soft);
+      line-height: 1.45;
+    }
+
+    .entry-tag {
+      display: inline-block;
+      font-size: 7.5pt;
+      font-weight: 600;
+      color: var(--muted);
+      background: var(--sidebar);
+      padding: 1px 6px;
+      border-radius: 3px;
+      margin-top: 2px;
+    }
+
+    .entry-duties {
+      list-style: none;
+      margin-top: 3px;
+    }
+
+    .entry-duties li {
+      font-size: 8.5pt;
+      color: var(--muted);
+      line-height: 1.45;
+      padding-left: 10px;
+      position: relative;
+      margin-bottom: 2px;
+    }
+
+    .entry-duties li::before {
+      content: "–";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .exp-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 3mm;
+    }
+
+    .exp-card {
+      padding: 6px 9px 6px 10px;
+      border-radius: 6px;
+      background: linear-gradient(135deg, #f8faff 0%, #fff 100%);
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--accent);
+    }
+
+    .exp-card .entry {
+      margin-bottom: 0;
+      padding-left: 0;
+      border-left: none;
+    }
+
+    .tech-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3px;
+      margin-top: 3px;
+    }
+
+    .tech-row span {
+      font-size: 7.5pt;
+      font-weight: 600;
+      padding: 2px 6px;
+      border-radius: 3px;
+      background: rgba(37, 99, 235, 0.08);
+      color: var(--accent-dark);
+    }
+
+    .about-lead {
+      font-size: 9.5pt;
+      color: var(--text);
+      font-weight: 500;
+      line-height: 1.55;
+      margin-bottom: 6px;
+      padding: 7px 10px;
+      background: var(--sidebar);
+      border-radius: 5px;
+      border-left: 3px solid var(--accent);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5px 10px;
+    }
+
+    .about-group h4 {
+      font-size: 9pt;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 3px;
+    }
+
+    .about-group ul {
+      list-style: none;
+      font-size: 9pt;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .about-group li {
+      padding-left: 9px;
+      position: relative;
+      margin-bottom: 1px;
+    }
+
+    .about-group li::before {
+      content: "–";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+
+    .col-left .entry {
+      margin-bottom: 0;
+      padding-left: 0;
+      border-left: none;
+    }
+
+    .col-left .entry-head {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1px;
+      margin-bottom: 3px;
+    }
+
+    .col-left .entry-head h3 {
+      font-size: 9pt;
+      line-height: 1.35;
+    }
+
+    .col-left .entry-sub,
+    .col-left .entry-detail {
+      font-size: 8.5pt;
+      line-height: 1.4;
+    }
+
+    .block--courses .entry {
+      margin-bottom: 3mm;
+    }
+
+    .block--courses .entry:last-child {
+      margin-bottom: 0;
+    }
+
+    .hint {
+      text-align: center;
+      font-size: 8pt;
+      color: var(--soft);
+      padding: 12px;
+      max-width: 210mm;
+      margin: 0 auto;
+    }
+
+    @media print {
+      @page {
+        size: A4 portrait;
+        margin: 0;
+      }
+
+      html {
+        font-size: 10pt;
+      }
+
+      body {
+        background: #fff;
+        padding: 0;
+      }
+
+      .sheet {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0;
+        box-shadow: none;
+        page-break-after: always;
+        break-after: page;
+      }
+
+      .sheet:last-child {
+        page-break-after: auto;
+        break-after: auto;
+      }
+
+      .hint {
+        display: none;
+      }
+
+      .content {
+        display: flex !important;
+      }
+
+      .col-left {
+        width: 33% !important;
+        background: var(--sidebar);
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+
+      .header,
+      .header--compact,
+      .about-lead,
+      .exp-card,
+      .tech-row span {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+
+      .exp-card,
+      .entry,
+      .about-group {
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+
+      a {
+        color: var(--accent-dark);
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      body {
+        padding: 0;
+      }
+
+      .sheet {
+        width: 100%;
+        min-height: auto;
+      }
+
+      .content {
+        flex-direction: column;
+      }
+
+      .col-left {
+        width: 100% !important;
+        border-right: none;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══ Страница 1 ═══ -->
+  <div class="sheet">
+    <header class="header">
+      <div class="header-info">
+        <h1>Лаврешин Илья Александрович</h1>
+        <p class="header-sub">Мужчина, 20&nbsp;лет · Санкт-Петербург</p>
+        <div class="contacts">
+          <a href="tel:+79189598871">+7&nbsp;(918)&nbsp;959-88-71</a>
+          <span class="sep">|</span>
+          <a href="mailto:ilyalav2323@gmail.com">ilyalav2323@gmail.com</a>
+        </div>
+      </div>
+      <div class="header-photo">
+        <img src="avatar.jpg" alt="Лаврешин Илья Александрович" />
+      </div>
+    </header>
+
+    <div class="content">
+      <aside class="col-left">
+        <section class="block">
+          <h2 class="block-title">Проживание и статус</h2>
+          <ul class="block-text">
+            <li>Проживает: Санкт-Петербург</li>
+            <li>Гражданство: Россия</li>
+            <li>Не готов к переезду, готов к командировкам</li>
+          </ul>
+        </section>
+
+        <section class="block">
+          <h2 class="block-title">Образование</h2>
+          <article class="entry">
+            <div class="entry-head">
+              <h3>Информационные системы и технологии в бизнесе</h3>
+              <span class="entry-period">2023 — 2027</span>
+            </div>
+            <p class="entry-sub">ГУАП, Санкт-Петербург</p>
+            <p class="entry-detail">Институт информационных систем и технологий</p>
+            <span class="entry-tag">Неоконченное высшее</span>
+          </article>
+        </section>
+
+        <section class="block">
+          <h2 class="block-title">Навыки</h2>
+          <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">Visual Studio</span>
+            <span class="skill">C#</span>
+            <span class="skill">C++</span>
+            <span class="skill">Git</span>
+            <span class="skill">CMS WordPress</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">MySQL</span>
+            <span class="skill">PostgreSQL</span>
+            <span class="skill">Figma</span>
+            <span class="skill">Kotlin</span>
+            <span class="skill">Photoshop</span>
+            <span class="skill soft">Создание сайтов</span>
+            <span class="skill soft">Исполнительность</span>
+            <span class="skill soft">Работа в команде</span>
+            <span class="skill soft">Обучение и развитие</span>
+          </div>
+        </section>
+      </aside>
+
+      <main class="col-right">
+        <section class="block">
+          <h2 class="block-title">Опыт работы</h2>
+          <div class="exp-stack">
+            <div class="exp-card">
+              <article class="entry">
+                <div class="entry-head">
+                  <h3>ООО «ЭРАПТ ГРУПП»</h3>
+                  <span class="entry-period">2025 — н.в.</span>
+                </div>
+                <p class="entry-sub">Веб-разработчик · создание и сопровождение сайтов</p>
+                <div class="tech-row">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <ul class="entry-duties">
+                  <li>Разработка и доработка веб-проектов компании</li>
+                  <li>Поддержка, обновление и сопровождение сайтов</li>
+                </ul>
+              </article>
+            </div>
+
+            <div class="exp-card">
+              <article class="entry">
+                <div class="entry-head">
+                  <h3>Веб-разработчик</h3>
+                  <span class="entry-period">2020 — н.в.</span>
+                </div>
+                <p class="entry-sub">Заказная разработка и сопровождение сайтов</p>
+                <div class="tech-row">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>CMS WordPress</span>
+                </div>
+                <ul class="entry-duties">
+                  <li>Разработка, поддержка и сопровождение сайтов под задачи клиента</li>
+                </ul>
+              </article>
+            </div>
+
+            <div class="exp-card">
+              <article class="entry">
+                <div class="entry-head">
+                  <h3>ООО «АСЮГ»</h3>
+                  <span class="entry-period">2022 — 2023</span>
+                </div>
+                <p class="entry-sub">Веб-разработчик · создание и ведение сайта</p>
+                <div class="tech-row">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <ul class="entry-duties">
+                  <li>Разработка корпоративного сайта с нуля</li>
+                </ul>
+                <span class="entry-tag">8 месяцев</span>
+              </article>
+            </div>
+
+            <div class="exp-card">
+              <article class="entry">
+                <div class="entry-head">
+                  <h3>Mmobile</h3>
+                  <span class="entry-period">2020 — 2021</span>
+                </div>
+                <p class="entry-sub">Веб-разработчик · создание и сопровождение сайта</p>
+                <div class="tech-row">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>CMS WordPress</span>
+                </div>
+                <ul class="entry-duties">
+                  <li>Разработка сайта компании под ключ</li>
+                  <li>Поддержка, обновление и техническое обслуживание</li>
+                </ul>
+                <span class="entry-tag">1 год 3 месяца</span>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="block block--courses">
+          <h2 class="block-title">Повышение квалификации, курсы</h2>
+          <article class="entry">
+            <div class="entry-head">
+              <h3>Системная инженерия в QA</h3>
+              <span class="entry-period">2026</span>
+            </div>
+            <p class="entry-sub">ООО «БФТ-Холдинг» · производственная практика</p>
+            <span class="entry-tag">Практика</span>
+          </article>
+          <article class="entry">
+            <div class="entry-head">
+              <h3>Программный инженер</h3>
+              <span class="entry-period">2018 – 2022</span>
+            </div>
+            <p class="entry-sub">ВШП, Краснодар · автоматизированные системы управления и обработки информации</p>
+            <span class="entry-tag">4 года · Диплом</span>
+          </article>
+          <article class="entry">
+            <div class="entry-head">
+              <h3>Промышленное программирование</h3>
+              <span class="entry-period">2019 – 2022</span>
+            </div>
+            <p class="entry-sub">АНО ДО «Школа программистов», Москва</p>
+            <span class="entry-tag">3 года · Свидетельство</span>
+          </article>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <!-- ═══ Страница 2 ═══ -->
+  <div class="sheet">
+    <header class="header header--compact">
+      <div class="header-info">
+        <h1>Лаврешин Илья Александрович</h1>
+        <div class="contacts">
+          <a href="tel:+79189598871">+7&nbsp;(918)&nbsp;959-88-71</a>
+          <span class="sep">|</span>
+          <a href="mailto:ilyalav2323@gmail.com">ilyalav2323@gmail.com</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="content">
+      <aside class="col-left">
+        <section class="block">
+          <h2 class="block-title">Знание языков</h2>
+          <div class="lang-item">
+            <span>Русский</span>
+            <span>Родной</span>
+          </div>
+          <div class="lang-item">
+            <span>Английский</span>
+            <span>B1 — Средний</span>
+          </div>
+        </section>
+
+        <section class="block">
+          <h2 class="block-title">Опыт вождения</h2>
+          <p class="block-text">Права категории B</p>
+        </section>
+      </aside>
+
+      <main class="col-right">
+        <section class="block">
+          <h2 class="block-title">Обо мне</h2>
+          <p class="about-lead">Студент 4-го курса, увлечённый IT-технологиями с глубоким интересом к их практическому применению.</p>
+
+          <div class="about-grid">
+            <div class="about-group">
+              <h4>Развитие и обучение</h4>
+              <ul>
+                <li>С ранних лет погружён в программирование</li>
+                <li>Осваиваю языки и технологии параллельно с учёбой</li>
+                <li>Практика «Системная инженерия в QA» — ООО «БФТ-Холдинг»</li>
+              </ul>
+            </div>
+
+            <div class="about-group">
+              <h4>Практический опыт</h4>
+              <ul>
+                <li>ООО «ЭРАПТ ГРУПП», Mmobile, ООО «АСЮГ» и частные заказы</li>
+                <li>Портфолио — по запросу</li>
+              </ul>
+            </div>
+
+            <div class="about-group">
+              <h4>Личные качества</h4>
+              <ul>
+                <li>Стрессоустойчивость, пунктуальность, ответственность</li>
+                <li>Работа в команде и самостоятельно</li>
+              </ul>
+            </div>
+
+            <div class="about-group">
+              <h4>Фокус</h4>
+              <ul>
+                <li>Профессиональное развитие и новые технологии</li>
+                <li>Вредных привычек нет</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <p class="hint">PDF: Ctrl+P → A4 · «Сохранить как PDF» · без колонтитулов · 2 страницы</p>
+</body>
+</html>
