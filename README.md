@@ -1,7 +1,7 @@
 # Ilya Alexandrovich
 
 <details open>
-<summary><b>RU</b></summary>
+<summary>&nbsp;<b>RU</b></summary>
 
 👨‍💻 Студент 4 курса IT-направления  
 🚀 Технологии увлекают меня ещё с школьных лет  
@@ -62,7 +62,7 @@
 </details>
 
 <details>
-<summary><b>EN</b></summary>
+<summary>&nbsp;<b>EN</b></summary>
 
 👨‍💻 4th-year IT student  
 🚀 Technology has been my passion since school  
