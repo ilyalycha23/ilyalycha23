@@ -3,8 +3,6 @@
 <details open>
 <summary><b>RU</b></summary>
 
-## Версия на русском языке
-
 👨‍💻 Студент 4 курса IT-направления  
 🚀 Технологии увлекают меня ещё с школьных лет  
 📈 Углубляю знания в университете и делаю упор на саморазвитие
@@ -65,8 +63,6 @@
 
 <details>
 <summary><b>EN</b></summary>
-
-## English version
 
 👨‍💻 4th-year IT student  
 🚀 Technology has been my passion since school  
