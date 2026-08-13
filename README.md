@@ -33,6 +33,17 @@
 
 ---
 
+## 💼 Портфолио
+
+- [Веб-разработка](https://github.com/ilyalycha23/My-websites-portfolio)
+- [Игровой сборник — C# / Unity](https://github.com/ilyalycha23/SetOf2DGames)
+- [Игра 2048 — C# / Unity](https://github.com/ilyalycha23/2048)
+- [Трекер для учёта учёбы — JS](https://github.com/ilyalycha23/tracker-ycheba-mobile)
+- [Автоматизация учёта пациентов в больнице — Kotlin](https://github.com/ilyalycha23/MediTrack-Training)
+- [Автоматизация деятельности киноцентра — 1С](https://github.com/ilyalycha23/Cinema-Enterprise-1C)
+
+---
+
 ## 🎓 Образование
 
 - **ГУАП** - в настоящее время обучаюсь в [Санкт-Петербургском государственном университете аэрокосмического приборостроения](https://guap.ru/).
@@ -80,6 +91,17 @@
 [![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)](https://www.adobe.com/products/photoshop.html)
 
 </div>
+
+---
+
+## 💼 Portfolio
+
+- [Web development](https://github.com/ilyalycha23/My-websites-portfolio)
+- [Game collection — C# / Unity](https://github.com/ilyalycha23/SetOf2DGames)
+- [2048 game — C# / Unity](https://github.com/ilyalycha23/2048)
+- [Study tracker — JS](https://github.com/ilyalycha23/tracker-ycheba-mobile)
+- [Hospital patient tracking — Kotlin](https://github.com/ilyalycha23/MediTrack-Training)
+- [Cinema center automation — 1C](https://github.com/ilyalycha23/Cinema-Enterprise-1C)
 
 ---
 
