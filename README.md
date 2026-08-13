@@ -3,10 +3,7 @@
 <details open>
 <summary><b>RU</b></summary>
 
-<table>
-<tr>
-<td width="16"></td>
-<td>
+<br>
 
 👨‍💻 Студент 4 курса IT-направления  
 🚀 Технологии увлекают меня ещё с школьных лет  
@@ -64,19 +61,12 @@
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ilyalav2323@gmail.com)
 [![VK](https://img.shields.io/badge/VK-0077FF?style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/ilyalavrl)
 
-</td>
-</tr>
-</table>
-
 </details>
 
 <details>
 <summary><b>EN</b></summary>
 
-<table>
-<tr>
-<td width="16"></td>
-<td>
+<br>
 
 👨‍💻 4th-year IT student  
 🚀 Technology has been my passion since school  
@@ -133,9 +123,5 @@
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ilyalavl)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ilyalav2323@gmail.com)
 [![VK](https://img.shields.io/badge/VK-0077FF?style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/ilyalavrl)
-
-</td>
-</tr>
-</table>
 
 </details>
