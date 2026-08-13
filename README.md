@@ -44,50 +44,14 @@
 
 ## 💼 Портфолио
 
-<table>
-<tr>
-<td width="50%">
-
-🌐 **[Веб-разработка](https://github.com/ilyalycha23/My-websites-portfolio)**  
-<sub>Коммерческие сайты на WordPress</sub>
-
-</td>
-<td width="50%">
-
-🎮 **[Игровой сборник](https://github.com/ilyalycha23/SetOf2DGames)**  
-<sub>5 игр на C# / Unity</sub>
-
-</td>
-</tr>
-<tr>
-<td>
-
-🔢 **[Игра 2048](https://github.com/ilyalycha23/2048)**  
-<sub>Головоломка на C# / Unity</sub>
-
-</td>
-<td>
-
-📅 **[Трекер учёбы](https://github.com/ilyalycha23/tracker-ycheba-mobile)**  
-<sub>Расписание и дедлайны на JS</sub>
-
-</td>
-</tr>
-<tr>
-<td>
-
-🏥 **[Учёт пациентов](https://github.com/ilyalycha23/MediTrack-Training)**  
-<sub>Android-приложение на Kotlin</sub>
-
-</td>
-<td>
-
-🎬 **[Киноцентр](https://github.com/ilyalycha23/Cinema-Enterprise-1C)**  
-<sub>Конфигурация на 1С:Предприятие</sub>
-
-</td>
-</tr>
-</table>
+| Проект | Стек | Ссылка |
+| :--- | :--- | :---: |
+| 🌐 Веб-разработка | WordPress · HTML · CSS · JS | [Открыть](https://github.com/ilyalycha23/My-websites-portfolio) |
+| 🎮 Игровой сборник | C# · Unity | [Открыть](https://github.com/ilyalycha23/SetOf2DGames) |
+| 🔢 Игра 2048 | C# · Unity | [Открыть](https://github.com/ilyalycha23/2048) |
+| 📅 Трекер учёбы | JavaScript | [Открыть](https://github.com/ilyalycha23/tracker-ycheba-mobile) |
+| 🏥 Учёт пациентов | Kotlin | [Открыть](https://github.com/ilyalycha23/MediTrack-Training) |
+| 🎬 Киноцентр | 1С:Предприятие | [Открыть](https://github.com/ilyalycha23/Cinema-Enterprise-1C) |
 
 ---
 
@@ -143,50 +107,14 @@
 
 ## 💼 Portfolio
 
-<table>
-<tr>
-<td width="50%">
-
-🌐 **[Web development](https://github.com/ilyalycha23/My-websites-portfolio)**  
-<sub>Commercial websites on WordPress</sub>
-
-</td>
-<td width="50%">
-
-🎮 **[Game collection](https://github.com/ilyalycha23/SetOf2DGames)**  
-<sub>5 games in C# / Unity</sub>
-
-</td>
-</tr>
-<tr>
-<td>
-
-🔢 **[2048 game](https://github.com/ilyalycha23/2048)**  
-<sub>Puzzle clone in C# / Unity</sub>
-
-</td>
-<td>
-
-📅 **[Study tracker](https://github.com/ilyalycha23/tracker-ycheba-mobile)**  
-<sub>Schedule and deadlines in JS</sub>
-
-</td>
-</tr>
-<tr>
-<td>
-
-🏥 **[Patient tracking](https://github.com/ilyalycha23/MediTrack-Training)**  
-<sub>Android app in Kotlin</sub>
-
-</td>
-<td>
-
-🎬 **[Cinema center](https://github.com/ilyalycha23/Cinema-Enterprise-1C)**  
-<sub>1C:Enterprise configuration</sub>
-
-</td>
-</tr>
-</table>
+| Project | Stack | Link |
+| :--- | :--- | :---: |
+| 🌐 Web development | WordPress · HTML · CSS · JS | [Open](https://github.com/ilyalycha23/My-websites-portfolio) |
+| 🎮 Game collection | C# · Unity | [Open](https://github.com/ilyalycha23/SetOf2DGames) |
+| 🔢 2048 game | C# · Unity | [Open](https://github.com/ilyalycha23/2048) |
+| 📅 Study tracker | JavaScript | [Open](https://github.com/ilyalycha23/tracker-ycheba-mobile) |
+| 🏥 Patient tracking | Kotlin | [Open](https://github.com/ilyalycha23/MediTrack-Training) |
+| 🎬 Cinema center | 1C:Enterprise | [Open](https://github.com/ilyalycha23/Cinema-Enterprise-1C) |
 
 ---
 
