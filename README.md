@@ -44,14 +44,23 @@
 
 ## 💼 Портфолио
 
-| Проект | Стек | Ссылка |
-| :--- | :--- | :---: |
-| 🌐 Веб-разработка | WordPress · HTML · CSS · JS | [Открыть](https://github.com/ilyalycha23/My-websites-portfolio) |
-| 🎮 Игровой сборник | C# · Unity | [Открыть](https://github.com/ilyalycha23/SetOf2DGames) |
-| 🔢 Игра 2048 | C# · Unity | [Открыть](https://github.com/ilyalycha23/2048) |
-| 📅 Трекер учёбы | JavaScript | [Открыть](https://github.com/ilyalycha23/tracker-ycheba-mobile) |
-| 🏥 Учёт пациентов | Kotlin | [Открыть](https://github.com/ilyalycha23/MediTrack-Training) |
-| 🎬 Киноцентр | 1С:Предприятие | [Открыть](https://github.com/ilyalycha23/Cinema-Enterprise-1C) |
+**[🌐 Веб-разработка](https://github.com/ilyalycha23/My-websites-portfolio)**  
+Коммерческие сайты
+
+**[🎮 Игровой сборник](https://github.com/ilyalycha23/SetOf2DGames)**  
+5 классических 2D-игр на C# / Unity
+
+**[🔢 Игра 2048](https://github.com/ilyalycha23/2048)**  
+Клон головоломки на C# / Unity
+
+**[📅 Трекер для учёта учёбы](https://github.com/ilyalycha23/tracker-ycheba-mobile)**  
+Расписание, посещаемость и дедлайны на JS
+
+**[🏥 Учёт пациентов в больнице](https://github.com/ilyalycha23/MediTrack-Training)**  
+Android-приложение на Kotlin
+
+**[🎬 Автоматизация киноцентра](https://github.com/ilyalycha23/Cinema-Enterprise-1C)**  
+Учебная конфигурация на 1С:Предприятие
 
 ---
 
@@ -107,14 +116,23 @@
 
 ## 💼 Portfolio
 
-| Project | Stack | Link |
-| :--- | :--- | :---: |
-| 🌐 Web development | WordPress · HTML · CSS · JS | [Open](https://github.com/ilyalycha23/My-websites-portfolio) |
-| 🎮 Game collection | C# · Unity | [Open](https://github.com/ilyalycha23/SetOf2DGames) |
-| 🔢 2048 game | C# · Unity | [Open](https://github.com/ilyalycha23/2048) |
-| 📅 Study tracker | JavaScript | [Open](https://github.com/ilyalycha23/tracker-ycheba-mobile) |
-| 🏥 Patient tracking | Kotlin | [Open](https://github.com/ilyalycha23/MediTrack-Training) |
-| 🎬 Cinema center | 1C:Enterprise | [Open](https://github.com/ilyalycha23/Cinema-Enterprise-1C) |
+**[🌐 Web development](https://github.com/ilyalycha23/My-websites-portfolio)**  
+Commercial websites 
+
+**[🎮 Game collection](https://github.com/ilyalycha23/SetOf2DGames)**  
+5 classic 2D games in C# / Unity
+
+**[🔢 2048 game](https://github.com/ilyalycha23/2048)**  
+Puzzle clone in C# / Unity
+
+**[📅 Study tracker](https://github.com/ilyalycha23/tracker-ycheba-mobile)**  
+Schedule, attendance and deadlines in JS
+
+**[🏥 Hospital patient tracking](https://github.com/ilyalycha23/MediTrack-Training)**  
+Android app in Kotlin
+
+**[🎬 Cinema center automation](https://github.com/ilyalycha23/Cinema-Enterprise-1C)**  
+Training configuration in 1C:Enterprise
 
 ---
 
